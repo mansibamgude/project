@@ -1,0 +1,35 @@
+/* OrderList.css */
+.order-list {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+  }
+  
+  .order-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .order-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-list th, 
+  .order-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-list th {
+    background-color: #f4f4f4;
+  }
+  
+  .order-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  

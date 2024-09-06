@@ -1,0 +1,33 @@
+.payment-list {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.payment-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.payment-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-list th, 
+.payment-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.payment-list th {
+    background-color: #f4f4f4;
+}
+
+.payment-list tr:hover {
+    background-color: #f1f1f1;
+}

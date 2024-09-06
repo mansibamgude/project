@@ -1,0 +1,53 @@
+/* Dashboard Styles */
+.dashboard {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for better contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow for more depth */
+    border-radius: 12px; /* Increased border-radius for a more rounded look */
+    margin: 20px;
+}
+
+/* Heading Styles */
+.dashboard h2 {
+    font-size: 28px; /* Larger font size for better prominence */
+    margin-bottom: 20px;
+    color: #333; /* Dark color for readability */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+/* List Styles */
+.dashboard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List Item Styles */
+.dashboard ul li {
+    margin: 15px 0; /* Increased margin for better spacing */
+}
+
+/* Link Styles */
+.dashboard ul li a {
+    display: block;
+    padding: 15px; /* Increased padding for a more clickable area */
+    background-color: #007bff; /* Primary color for the button */
+    color: #ffffff; /* White text for contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    text-align: center;
+    font-size: 18px; /* Larger font size for readability */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Link Hover Effects */
+.dashboard ul li a:hover {
+    background-color: #0056b3; /* Darker color for hover effect */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Additional Hover Effects */
+.dashboard ul li a:active {
+    background-color: #004085; /* Even darker color on click */
+    transform: translateY(0); /* Reset lift effect */
+}
